@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+    <ion-card-header>
+       <h1>Your Calculator</h1>  
+    </ion-card-header>
+
+  <ion-card>
+  <ion-card-content >
+            
+  <P> 
+  
+  <ion-input [(ngModel)]="pressure"  type="text" placeholder="0"></ion-input>
+  
+  <button ion-button color="light" small (click)="press('<==')"> <== </button>
+  
+  </P> 
+  
+<ion-slides pager>
+  <ion-slide >
+    
+          <P> 
+
+                  <button ion-button color="dark" small (click)="press('7')"> 7 </button>
+                  <button ion-button color="dark" small (click)="press('8')"> 8 </button>
+                  <button ion-button color="dark" small (click)="press('9')"> 9 </button>
+                  <button ion-button  color="secondary" small (click)="press('+')"> + </button>
+                  <button ion-button  color="secondary" small (click)="press('(')"> ( </button>
+                
+              </P>
+                
+              <P>
+                
+                  <button ion-button  color="dark" small (click)="press('4')"> 4 </button>
+                  <button ion-button  color="dark" small (click)="press('5')"> 5 </button>
+                  <button ion-button  color="dark" small (click)="press('6')"> 6 </button>
+                  <button ion-button  color="secondary" small (click)="press('-')"> - </button>
+                  <button ion-button  color="secondary" small (click)="press(')')"> ) </button>
+            
+              </P>
+              
+              <P>
+            
+                  <button ion-button color="dark" small (click)="press('1')"> 1 </button>            
+                  <button ion-button color="dark" small (click)="press('2')"> 2 </button>
+                  <button ion-button color="dark" small (click)="press('3')"> 3 </button>
+                  <button ion-button color="secondary"  small (click)="press('*')"> * </button>
+                  <button ion-button  color="secondary" small (click)="press('C')"> C </button>
+              </P>
+            
+              <P>
+            
+                  <button ion-button color="dark" small (click)="press('0')"> 0 </button>
+                  <button ion-button color="dark" small (click)="press('00')"> 00 </button>
+                  <button ion-button color="dark" small (click)="press('.')"> . </button>
+                  <button ion-button color="secondary"  small (click)="press('/')"> / </button>
+                  <button ion-button  color="secondary" small (click)="press('=')"> = </button>
+            
+              </P>
+
+  </ion-slide>
+
+</ion-slides>
+</ion-card-content>
+</ion-card>
+
+</ion-content>

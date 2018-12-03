@@ -1,0 +1,45 @@
+page-home {
+      .text-input-md{
+        width: calc(100% - 8px - 1px);
+        min-height: 28px;
+        padding-left: 5;
+    }
+
+    .text-input{
+        border: 1px solid       ;
+        background: transparent;
+    }
+
+    ion-input, ion-textarea{
+        width: 50%;
+        display: inline-block;
+        margin-left: 22%;
+    }
+
+    .button-md:hover:not(.disable-hover){
+        margin-top: 9px;
+        
+    }
+
+    .button-small-md{
+        margin-top: 13px;
+    }
+
+    .swiper-slide{
+        height: 70%;
+    }
+    
+    .card-content-md {
+      padding: 30px 20px;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      border: 1px solid;
+      background: #bcc4ec;
+      
+  }
+
+  .card-header-md {
+    font-size: 1.6rem;
+    color: #c8d40c;
+}
+}
